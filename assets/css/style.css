@@ -810,26 +810,32 @@ body:hover .follow3 span {
 
 section.home {
     background: #373737;
+    min-height: 100vh;
 }
 
 section.skills {
     background: #262f38;
+    min-height: 100vh;
 }
 
 section.about {
     background: #6f8c84;
+    min-height: 100vh;
 }
 
 section.experience {
     background: #252934;
+    min-height: 100vh;
 }
 
 section.work {
     background: #77acc3;
+    min-height: 100vh;
 }
 
 section.contact {
     background: #7893b5;
+    min-height: 100vh;
 }
 
 .dark-theme {
