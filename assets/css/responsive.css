@@ -1,0 +1,240 @@
+/*
+Theme Name: Portfolio
+Theme URL: imohdnadeem.github.io
+Author: Mohd Nadeem
+Author URL: imohdnadeem.github.io
+Author Email: mohdnadeemmail@gmail.com
+Description: Mohd Nadeem | Front End Developer | mohdnadeemmail@gmail.com | +91 8604060157 | India | Design and develop efficient, adaptable and intuitive user interfaces for web and mobile applications while continuing to learn and expand my knowledge of emerging web technologies and standards.
+Version: 1.0
+
+[Table of contents]
+
+@media screen and (min-width:0\0)
+- IE
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+- Chrome/Safari
+
+@-moz-document url-prefix()
+- Mozilla
+
+@media only screen and (max-width : 1280px)
+- Macbook and other devices
+
+@media only screen and (max-width : 1024px)
+- iPad devices Landscape
+
+@media  only screen and (max-width : 991px)
+- Tabs and Tablets Landscape
+
+@media only screen and (max-width : 800px)
+- iPad Potrait and other devices
+
+@media only screen and (max-width : 740px)
+- iPhone 6Plus/Nexus 6 Landscape
+
+@media only screen and (max-width : 680px)
+- iPhone 6 Landscape
+
+@media only screen and (max-width : 640px)
+- Nexus 5/Samsung Galaxy and other Android Landscape
+
+@media only screen and (max-width : 580px)
+- iPhone 5 Landscape
+
+@media only screen and (max-width : 480px)
+- iPhone 4 Landscape and iPhone 6/6Plus Potrait
+
+@media only screen and (max-width : 420px)
+- iPhone 6/6Plus Potrait/Nexus 5/Samsung Galaxy and other Android Potrait
+
+@media only screen and (max-width : 360px)
+- Nexus 5/Samsung Galaxy and other Android Potrait  
+
+@media only screen and (max-width : 320px)
+- iPhone 4/5 Potrait
+
+*/
+
+
+/* M E D I A   Q U E R I E S */
+
+@media only screen and (min-width: 1025px) {
+    /* scrollbar css */
+     ::-webkit-scrollbar {
+        width: 3px;
+    }
+     ::-webkit-scrollbar-track {
+        background: #cac5c5;
+        border-radius: 3px;
+    }
+     ::-webkit-scrollbar-thumb {
+        background-color: #607d8b;
+        border-radius: 3px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .skills-sec {
+        padding-bottom: 30px;
+    }
+    .help-text {
+        display: none;
+    }
+    .author-info_left,
+    .author-info_right {
+        width: 100%;
+    }
+    .author-pic {
+        float: none;
+        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+    }
+    .author {
+        width: 250px;
+        height: 250px;
+    }
+    .author-pic:after {
+        width: 260px;
+        height: 260px;
+    }
+    .skills-left,
+    .skills-right {
+        width: 100%;
+        float: none;
+    }
+    .skills-right {
+        padding-top: 60px;
+    }
+    .skills-list {
+        width: 310px;
+        margin: 0 auto;
+        padding: 30px 0;
+        pointer-events: none;
+    }
+    .main-heading {
+        font-size: 24px;
+        text-align: center;
+    }
+    section>div {
+        height: 100vh;
+        overflow: auto;
+    }
+    .experience-wrapper h2.main-heading+p {
+        text-align: center;
+    }
+    .c-timeline ul li:nth-child(even) .c-timeline__event,
+    .c-timeline ul li:nth-child(odd) .c-timeline__event {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    .professional-timeline {
+        height: auto;
+    }
+    .c-timeline ul:after {
+        left: 15px;
+    }
+    .current-year {
+        text-align: left;
+    }
+    .c-timeline ul {
+        padding-left: 30px;
+    }
+    .c-timeline ul li:nth-child(even) .c-timeline__event:before {
+        left: -23px;
+        right: auto;
+    }
+    .c-timeline ul li:nth-child(even) .c-timeline__event:after {
+        left: -28px;
+        right: auto;
+    }
+    .c-timeline ul li:nth-child(even) .c-timeline__event .c-timeline__heading:before {
+        border: 10px solid hsla(0, 0%, 100%, 0);
+        border-right-color: #fff;
+        left: -20px;
+        right: auto;
+    }
+    .menu span,
+    .close-menu span {
+        width: 25px;
+    }
+    .menu span:not(:last-child),
+    .close-menu span:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    .site-header {
+        height: auto;
+        padding: 0;
+        position: static;
+    }
+    .menu,
+    .close-menu {
+        position: fixed;
+        right: 15px;
+        top: 30px;
+    }
+    .section-content {
+        height: 100vh;
+        padding: 30px 0;
+    }
+    .author-details {
+        top: 50%;
+    }
+    .site-nav .site-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .skills-right {
+        display: none;
+    }
+    .section-content {
+        margin: 0 30px;
+    }
+    .title h2 span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .title h4 {
+        font-size: 22px;
+    }
+    .title p {
+        font-size: 19px;
+    }
+    .author-details {
+        position: static;
+        padding: 30px 0;
+        transform: translate(0);
+        -ms-transform: translate(0);
+        -webkit-transform: translate(0);
+        -o-transform: translate(0);
+    }
+    .author-info_left .intro-line {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .author-info_left p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .author-pic,
+    .author {
+        width: 190px;
+        height: 190px;
+    }
+    .author-pic:after {
+        width: 200px;
+        height: 200px;
+    }
+}
