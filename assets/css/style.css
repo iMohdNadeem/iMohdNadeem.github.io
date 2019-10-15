@@ -1567,6 +1567,7 @@ section.contact {
 .resume-wrap {
     opacity: 0;
     padding-bottom: 30px;
+    margin-left: 15px;
 }
 
 .resume {
