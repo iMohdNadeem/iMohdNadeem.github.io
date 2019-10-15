@@ -834,7 +834,7 @@ section.work {
 }
 
 section.contact {
-    background: #7893b5;
+    background: #191919;
     min-height: 100vh;
 }
 
@@ -1983,4 +1983,105 @@ section.contact {
 .c-timeline ul li:nth-child(even) .c-timeline__event:after {
     right: -27px;
     left: auto;
+}
+
+
+/* contact me */
+
+.contact-details {
+    text-align: center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.social-links li a {
+    font-size: 25px;
+    display: inline-block;
+    background: #3a3b3c;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+}
+
+.social-links li a:hover {
+    background: #ffffff;
+    color: #3a3b3c;
+    transform: scale(1.15);
+}
+
+.contact-links li {
+    list-style-type: none;
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+
+.contact-links li:not(:last-child) {
+    border-right: 1px solid #ffffff;
+}
+
+.contact-links li span {
+    display: block;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contact-links li a {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contact-details h3 {
+    font-size: 36px;
+    line-height: 42px;
+    color: #f77518;
+    font-family: 'Dosis', sans-serif;
+    padding-top: 15px;
+}
+
+.contact-details p {
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contact-links:before,
+.contact-links:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contact-links {
+    padding: 30px 0;
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.contact-links li span i {
+    margin-right: 10px;
+}
+
+.author-rec {
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    background: #3a3b3c;
+    font-family: 'Notable', sans-serif;
+    font-size: 53px;
+    line-height: 110px;
+    text-align: center;
 }

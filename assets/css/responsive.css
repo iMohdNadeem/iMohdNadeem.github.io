@@ -238,3 +238,17 @@ Version: 1.0
         height: 200px;
     }
 }
+
+@media only screen and (max-width: 520px) {
+    .contact-links {
+        padding: 15px 0;
+    }
+    .contact-links li {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .contact-links li:not(:last-child) {
+        border-right: 0;
+        border-bottom: 0;
+    }
+}
