@@ -80,33 +80,33 @@ $(window).on('load', function() {
             left: (e.clientX) + 'px',
             top: (e.clientY) + 'px'
         });
-        $('.symbol').css({
-            'top': ((e.clientY) / 80) + 'px',
-            'left': ((e.clientX) / 80) + 'px',
-        })
+        // $('.symbol').css({
+        //     'top': ((e.clientY) / 80) + 'px',
+        //     'left': ((e.clientX) / 80) + 'px',
+        // })
 
-        $('.letter-m').css({
-            'margin-left': ((e.clientX) / 100) + 'px',
-            'margin-top': ((e.clientY) / 100) + 'px',
-        })
-        $('.letter-n').css({
-            'margin-left': ((e.clientX) / 30) + 'px',
-            'margin-top': ((e.clientY) / 30) + 'px',
-        })
+        // $('.letter-m').css({
+        //     'margin-left': ((e.clientX) / 100) + 'px',
+        //     'margin-top': ((e.clientY) / 100) + 'px',
+        // })
+        // $('.letter-n').css({
+        //     'margin-left': ((e.clientX) / 30) + 'px',
+        //     'margin-top': ((e.clientY) / 30) + 'px',
+        // })
     }).on('mouseout', function() {
-        $('.symbol').css({
-            'margin-left': 'auto',
-            'top': '0px',
-        })
+        // $('.symbol').css({
+        //     'margin-left': 'auto',
+        //     'top': '0px',
+        // })
 
-        $('.letter-m').css({
-            'margin-left': '-15px',
-            'margin-top': '0px',
-        })
-        $('.letter-n').css({
-            'margin-left': '25px',
-            'margin-top': '0px',
-        })
+        // $('.letter-m').css({
+        //     'margin-left': '-15px',
+        //     'margin-top': '0px',
+        // })
+        // $('.letter-n').css({
+        //     'margin-left': '25px',
+        //     'margin-top': '0px',
+        // })
     })
 
 

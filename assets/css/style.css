@@ -995,7 +995,7 @@ section.contact {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
-    font-family: 'Notable', sans-serif;
+    font-family: 'notableregular', sans-serif;
 }
 
 .c-3 span {
@@ -1928,7 +1928,7 @@ section.contact {
 }
 
 .professional-timeline {
-    height: 65vh;
+    height: calc(100vh - 220px);
     overflow: auto;
     margin-top: 15px;
     padding-bottom: 30px;
@@ -1990,7 +1990,7 @@ section.contact {
 
 .contact-details {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .social-links {
@@ -2054,9 +2054,10 @@ section.contact {
     padding-top: 15px;
 }
 
-.contact-details p {
+.contact-details p a {
     font-size: 20px;
     font-family: 'Dosis', sans-serif;
+    color: #ffffff;
 }
 
 .contact-links:before,
@@ -2081,8 +2082,19 @@ section.contact {
     height: 120px;
     width: 120px;
     background: #3a3b3c;
-    font-family: 'Notable', sans-serif;
+    font-family: 'notableregular', sans-serif;
     font-size: 53px;
-    line-height: 110px;
+    line-height: 125px;
+    text-align: center;
+}
+
+.contact-details p a i {
+    background: #3a3b3c;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    margin-left: 16px;
+    font-size: 22px;
     text-align: center;
 }
