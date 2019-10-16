@@ -75,6 +75,9 @@ Version: 1.0
 }
 
 @media only screen and (max-width: 1024px) {
+    .title h2 span em {
+        display: block;
+    }
     .skills-sec {
         padding-bottom: 30px;
     }
@@ -239,7 +242,7 @@ Version: 1.0
     }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 767px) {
     .contact-links {
         padding: 15px 0;
     }
