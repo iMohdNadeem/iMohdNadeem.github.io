@@ -200,9 +200,6 @@ Version: 1.0
     .project-desc-right {
         width: 50%;
     }
-    .project-name {
-        padding: 10px 0;
-    }
     .project-list {
         height: calc(100vh - 100px);
     }
