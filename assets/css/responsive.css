@@ -134,7 +134,7 @@ Version: 1.0
         margin: 0;
     }
     .professional-timeline {
-        height: auto;
+        height: calc(100vh - 170px);
     }
     .c-timeline ul:after {
         left: 15px;
@@ -196,6 +196,23 @@ Version: 1.0
         min-height: 100vh;
         padding: 15px 0;
     }
+    .project-desc-left,
+    .project-desc-right {
+        width: 50%;
+    }
+    .project-name {
+        padding: 10px 0;
+    }
+    .project-list {
+        height: calc(100vh - 100px);
+    }
+    .skills-con {
+        height: calc(100vh - 115px);
+        overflow: auto;
+    }
+    .section-content {
+        padding: 20px 0 30px 0;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -240,9 +257,6 @@ Version: 1.0
         width: 200px;
         height: 200px;
     }
-}
-
-@media only screen and (max-width: 767px) {
     .contact-links {
         padding: 15px 0;
     }
@@ -253,5 +267,45 @@ Version: 1.0
     .contact-links li:not(:last-child) {
         border-right: 0;
         border-bottom: 0;
+    }
+    .project-desc {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .my-project-list li:nth-child(even) .project-desc-left,
+    .my-project-list li:nth-child(even) .project-desc-right {
+        order: 1;
+    }
+    .project-desc-right {
+        padding-top: 15px;
+    }
+    .project-name {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .author-info {
+        height: calc(100vh - 100px);
+        overflow: auto;
+    }
+    .project-desc-left,
+    .project-desc-right {
+        width: 100%;
+    }
+    .project-list,
+    .project-desc-left,
+    .project-desc-right {
+        margin: 0;
+        padding: 0;
+    }
+    .experience-wrapper h2.main-heading+p {
+        display: none;
+    }
+    .professional-timeline {
+        height: calc(100vh - 100px);
+    }
+    .my-project-list {
+        padding: 0 10px;
     }
 }
