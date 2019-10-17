@@ -2149,6 +2149,7 @@ section.contact {
 
 .my-project-list li {
     padding: 15px 0 30px 0;
+    list-style-type: none;
 }
 
 .project-desc {
