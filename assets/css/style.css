@@ -2178,13 +2178,10 @@ section.contact {
     clear: both;
 }
 
-.my-project-list {}
-
-span.project-image {
+.project-image {
     display: inline-block;
-    height: 250px;
     width: 100%;
-    background: black;
+    overflow: hidden;
 }
 
 .my-project-list li:nth-child(even) .project-desc-left {
