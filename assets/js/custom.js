@@ -14,19 +14,19 @@ $(document).ready(function() {
 })
 $(window).on('load', function() {
 
-    var i = 0;
-    var txt = "As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company. I've never stopped engaging my passion to help others and solve problems. I drink coffee, I eat pizza. I write code and improve my design and skills every day. I am honored to work with special people.";
-    var speed = 45;
-    var netxt = "";
+    // var i = 0;
+    // var txt = "As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company. I've never stopped engaging my passion to help others and solve problems. I drink coffee, I eat pizza. I write code and improve my design and skills every day. I am honored to work with special people.";
+    // var speed = 45;
+    // var netxt = "";
 
-    function typeWriter() {
-        if (i < txt.length) {
-            $(".typing-text").html(netxt + txt.charAt(i))
-            netxt = netxt + txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-        }
-    }
+    // function typeWriter() {
+    //     if (i < txt.length) {
+    //         $(".typing-text").html(netxt + txt.charAt(i))
+    //         netxt = netxt + txt.charAt(i);
+    //         i++;
+    //         setTimeout(typeWriter, speed);
+    //     }
+    // }
 
     $("a[data-target='about']").on('click', function() {
         setTimeout(function() {
@@ -36,10 +36,15 @@ $(window).on('load', function() {
             $('.intro-line').addClass('tag-active');
         }, 2000);
         setTimeout(function() {
+            $('.typing-text').css({
+                'opacity': '1'
+            })
+        }, 3500)
+        setTimeout(function() {
             $('.resume-wrap').css({
                 'opacity': '1'
             })
-        }, 22000)
+        }, 4000)
 
     })
 

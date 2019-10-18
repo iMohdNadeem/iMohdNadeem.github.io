@@ -2229,3 +2229,12 @@ section.contact {
     font-weight: bold;
     border-color: #000000;
 }
+
+.typing-text {
+    opacity: 0;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
